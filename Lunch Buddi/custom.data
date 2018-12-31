@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SienaSettings xmlns="Microsoft.Siena">
+  <Application p2:Name="Lunch Buddi" xmlns:p2="Microsoft.Siena" />
+  <LogoImage p2:Src="images\LOGOTRANS.png" xmlns:p2="Microsoft.Siena" />
+  <ImageAttributes p2:BackgroundColor="RGBA(255, 0, 0, 1)" p2:OffsetXSquare="50" p2:OffsetYSquare="50" p2:OffsetXWide="210" p2:OffsetYWide="50" p2:MaxSize="200" xmlns:p2="Microsoft.Siena" />
+  <Telemetry p2:DocumentID="47c0e95e-bf2c-4e33-a2c0-f393b0274b21" p2:DocumentVersionID="be8cebb4-091c-4091-b69c-421f6664e885" p2:ContainsO365Connector="false" xmlns:p2="Microsoft.Siena" />
+  <Version p2:OriginatingVersion="1.105" xmlns:p2="Microsoft.Siena" />
+</SienaSettings>

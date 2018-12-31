@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="MSPS47c0e95ebf2c4e33a2c0f393b0274b213196952500" Version="1.0.0.0" Publisher="CN=Emily@EMILY" ProcessorArchitecture="neutral" />
+  <Properties>
+    <DisplayName>Lunch Buddi</DisplayName>
+    <PublisherDisplayName>Siena</PublisherDisplayName>
+    <Logo>images\app_storeLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.3.0</OSMinVersion>
+    <OSMaxVersionTested>6.3.0</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="EN-US" />
+  </Resources>
+  <Applications>
+    <Application Id="MSPS47c0e95ebf2c4e33a2c0f393b0274b213196952500" StartPage="default.html">
+      <m2:VisualElements DisplayName="Lunch Buddi" Square150x150Logo="images\app_squareLogo.png" Square30x30Logo="images\app_smallLogo.png" Description="Application published by Project Siena" ForegroundText="light" BackgroundColor="#FF0000">
+        <m2:DefaultTile DefaultSize="square150x150Logo">
+          <m2:ShowNameOnTiles>
+            <m2:ShowOn Tile="square150x150Logo" />
+          </m2:ShowNameOnTiles>
+        </m2:DefaultTile>
+        <m2:SplashScreen Image="images\app_splash.png" />
+      </m2:VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="videosLibrary" />
+    <Capability Name="musicLibrary" />
+    <Capability Name="picturesLibrary" />
+    <Capability Name="internetClient" />
+    <Capability Name="enterpriseAuthentication" />
+    <Capability Name="privateNetworkClientServer" />
+    <DeviceCapability Name="webcam" />
+  </Capabilities>
+  <Dependencies>
+    <PackageDependency Name="Microsoft.WinJS.2.0" MinVersion="1.0.9600.16408" />
+  </Dependencies>
+</Package>
